@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/PromGraf:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/prometheusgrafana:latest
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
